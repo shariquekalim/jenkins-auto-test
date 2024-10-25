@@ -13,8 +13,8 @@ public class Controller {
 	}
 	
 	@GetMapping("/second")
-	public  bay() {
+	public String bay() {
 		return "Bay Bay  Wrold !";
 	}
-	
+
 }
