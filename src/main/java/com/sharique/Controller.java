@@ -11,4 +11,9 @@ public class Controller {
 		String str= "Hello World !";
 		return  str;
 	}
+	
+	@GetMapping("/second")
+	public String bay() {
+		return "Bay Bay  Wrold !";
+	}
 }
