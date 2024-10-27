@@ -15,6 +15,7 @@ public class Controller {
 	
 	@GetMapping("/second")
 	public String bay() {
+		System.out.println("This is second URL ");
 		return "Bay Bay  Wrold !";
 	}
 
